@@ -1,6 +1,6 @@
 {
   "name": "chainalysis-api-rest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chainalysis Know Your Transaction (KYT) is an automated cryptocurrency transaction monitoring and compliance solution. At the core of KYT is a REST-based API that provides you with transaction risk monitoring, alerts on risky transfers, and comprehensive user risk profiles, among other features. The API allows your internal business systems and Chainalysis's technology to communicate with each other.",
   "main": "lib/index.js",
   "scripts": {
