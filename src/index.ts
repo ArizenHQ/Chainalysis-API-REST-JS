@@ -67,6 +67,15 @@ export type TransferRequest = {
    * The value must be the asset's symbol, e.g., BTC for Bitcoin, ETH for Ether, UNI for Uniswap etc.
    */
   asset: 'BTC' | 'ETH' | 'USDT' | 'LTC' | string;
+  
+  /**
+   * Network to specify the network / Blockchain
+   * 
+   * The value must be from this list https://docs.chainalysis.com/api/kyt/guides/#supported-networks-and-assets
+   * BTC for Bitcoin, ETH for Ethereum, Ether, etc....
+   * 
+   */
+  network: 'BTC' | 'ETH' | 'USDT' | 'MATIC' | string;
 
   /**
    * A combination of the transaction hash and output address or index of the transaction, seperated with a colon. For example, {transaction_hash}:{output_address} or {transaction_hash}:{output_index}.
